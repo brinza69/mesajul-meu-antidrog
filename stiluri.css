@@ -1,0 +1,126 @@
+p#chimia-fericirii-text{
+  font-size: 100px;
+}
+
+body{
+  
+  
+}
+
+nav.navbar{
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #E7D2CC;
+}
+
+.h2{
+  
+}
+
+#intro{
+  margin-top: 75px;
+}
+
+
+div.ratio.ratio {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+#imagine_locuri{
+  width: 254px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+#titlu{
+  font-size: 50px;
+  font-family: 'DynaPuff',Arial;
+}
+
+
+
+div.speech{
+ 
+}
+
+p::first-letter {
+  margin-left: 50px;
+}
+
+.hidden{
+ opacity: 0;
+ filter: blur(5px);
+ transform: translateX(-100%);
+ transition: all 2s;
+
+}
+.show{
+  opacity: 1;
+  filter: blur(0px);
+  transform: translateX(0%);
+}
+
+.speech.row.row:nth-child(0) {
+  transition-delay: 200ms;
+}
+
+.speech.row.row:nth-child(1) {
+  transition-delay: 400ms;
+}
+
+#citate{
+  padding-left:10% ;
+  padding-right:10% ;
+}
+
+#galerie{
+  padding-left:10% ;
+  padding-right:10% ;
+}
+
+section{
+  padding-left:10% ;
+  padding-right:10% ;
+}
+
+#concluzie{
+  
+}
+
+#cateva-cuvinte{
+  padding-left:10%;
+  padding-right:10%; 
+}
+
+.row:nth-child(2) .col-4:nth-child(1) {
+  transition-delay: 200ms;
+}
+
+.row:nth-child(2) .col-4:nth-child(2) {
+  transition-delay: 400ms;
+}
+
+.row:nth-child(2) .col-4:nth-child(3) {
+  transition-delay: 600ms;
+}
+
+.row:nth-child(2) .col-3:nth-child(1) {
+  transition-delay: 200ms;
+}
+
+.row:nth-child(2) .col-3:nth-child(2) {
+  transition-delay: 400ms;
+}
+
+.row:nth-child(2) .col-3:nth-child(3) {
+  transition-delay: 600ms;
+}
+
+
