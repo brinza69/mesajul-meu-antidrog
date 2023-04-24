@@ -20,9 +20,15 @@ nav.navbar{
   
 }
 
-#intro{
+img.w-100{
   margin-top: 75px;
+  background: gray url("imagini/yesyoucan.png") ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 
 
 div.ratio.ratio {
@@ -122,5 +128,4 @@ section{
 .row:nth-child(2) .col-3:nth-child(3) {
   transition-delay: 600ms;
 }
-
 
